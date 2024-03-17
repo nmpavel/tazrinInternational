@@ -23,10 +23,10 @@ export default function Home() {
             <IoIosMail />
             <a className=" text-[#0D57F6]" href="mailto:tazrininternational@gmail.com">tazrininternational@gmail.com</a>
             </div>
-            <div className="flex flex-row gap-6 items-center">
+            {/* <div className="flex flex-row gap-6 items-center">
             <FaPhoneVolume />
             <a className=" text-[#0D57F6]" href="tel:+8801886314109">+8801886314109</a>
-            </div>
+            </div> */}
          </div>
       </div>
       
