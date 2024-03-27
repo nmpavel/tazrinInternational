@@ -17,7 +17,7 @@ export default function Home() {
             <p className=" text-center font-bold ">Contact Info:</p>
             <div className="flex flex-row gap-6 items-center">
             <IoIosMail />
-            <a className=" text-[#0D57F6]" href="mailto:tazrininternational@gmail.com">tazrininternational@gmail.com</a>
+            <a className=" text-[#0D57F6]" href="mailto:jbinnur121@gmail.com">jbinnur121@gmail.com</a>
             </div>
             {/* <div className="flex flex-row gap-6 items-center">
             <FaPhoneVolume />
