@@ -52,7 +52,7 @@ const Footer = (props: Props) => {
         {
             title: 'Exclusive Services',
             links: [
-                { title: `Call Us:  +8801897701632`, url: `tel:+8801897701632`, icon: <BsTelephoneInbound /> },
+                { title: `Call Us: +8801827784232`, url: `tel:+8801827784232`, icon: <BsTelephoneInbound /> },
                 { title: `Email Us:  hello.tazrinintl@gmail.com`, url: `mailto:hello.tazrinintl@gmail.com`, icon: <IoIosMail /> },
             ],
         },
@@ -195,13 +195,23 @@ const Footer = (props: Props) => {
                                         </div>
                                     ))}
                                 </div>
-                                <div className="mx-auto flex flex-col md:flex-row items-center gap-x-5 py-5 ml-2 md:ml-12 justify-center">
+                                <div className=''>
+                                <Link href="tel:+8801827784232" className="mx-auto flex flex-col md:flex-row items-center gap-x-5 py-5 ml-2 md:ml-12 justify-center">
                                     <IoMdCall size={40} className=" text-[#F5A800] mb-2" />
                                     <div>
                                         <p className="text-center text-lg font-normal text-white leading-[21.58px] mb-2">
-                                            Call Now : +8801897701632
+                                            Call Now : +8801827784232
                                         </p>
                                     </div>
+                                </Link>
+                                <Link href="mailto:hello.tazrinintl@gmail.com" className="mx-auto flex flex-col md:flex-row items-center gap-x-5 py-5 ml-2 md:ml-12 justify-center">
+                                    <IoIosMail size={40} className=" text-[#F5A800] mb-2" />
+                                    <div>
+                                        <p className="text-center text-lg font-normal text-white leading-[21.58px] mb-2">
+                                            Email Us : hello.tazrinintl@gmail.com
+                                        </p>
+                                    </div>
+                                </Link>
                                 </div>
                                
                             </div>
