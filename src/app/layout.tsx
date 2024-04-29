@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { ToastProvider } from "@/hooks/useToast";
+import Navbar from "@/views/appbars/Navbar";
+import Footer from "@/views/appbars/Footer";
+import ScrollToTopButton from "@/components/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body >
+          <Navbar />
+          {children}
+          <Footer />
+          <ScrollToTopButton />
+          <ToastProvider />
+      </body>
     </html>
   );
 }
