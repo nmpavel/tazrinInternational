@@ -33,6 +33,11 @@ const AboutUi = ({  }: Props) => {
             desc: "We take pride in our comprehensive range of high-quality food products, with a special emphasis on dairy. Operating our very own dairy firm, we are committed to delivering freshness and excellence. Our product line includes a diverse array of dairy items—from milk and cheese to yogurt and butter, all produced under stringent quality controls to ensure purity and taste. We also delight our customers with a variety of fresh sweets and ice creams, crafted from the finest ingredients and traditional recipes to offer an authentic and delicious experience. Whether you’re seeking everyday dairy essentials or indulgent treats, Tazrin International provides premium products that cater to both health and taste.",
             image: "/images/agro.jpeg",
         },
+        {
+            title: "Rental Service",
+            desc: "In addition to our diverse product range, Tazrin International proudly offers convenient rental services for transportation needs. Whether you require the agility of a bike, the comfort of a car, the spaciousness of a micro-bus, or the utility of a pickup van, we have you covered. Our rental fleet is meticulously maintained and readily available to cater to your travel requirements, whether for business or leisure. With flexible rental options and competitive rates, Tazrin International ensures a hassle-free experience, allowing you to focus on your journey with peace of mind.",
+            image: "/images/rent.jpg",
+        },
     ];
     const isLoading = useLoading()
     return (
