@@ -11,7 +11,7 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { BsTelephoneInbound } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
-import { IoMdCall } from 'react-icons/io';
+import { IoIosMail, IoMdCall } from 'react-icons/io';
 
 type Props = {};
 
@@ -53,6 +53,7 @@ const Footer = (props: Props) => {
             title: 'Exclusive Services',
             links: [
                 { title: `Call Us:  +8801897701632`, url: `tel:+8801897701632`, icon: <BsTelephoneInbound /> },
+                { title: `Email Us:  hello.tazrinintl@gmail.com`, url: `mailto:hello.tazrinintl@gmail.com`, icon: <IoIosMail /> },
             ],
         },
     ];
