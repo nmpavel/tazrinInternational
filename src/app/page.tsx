@@ -18,7 +18,7 @@ export default function Home() {
           height={37}
           priority
         />
-         <div className=" flex flex-col  justify-center gap-2">
+         {/* <div className=" flex flex-col  justify-center gap-2">
             <p className=" text-center font-bold ">Contact Us:</p>
             <div className="flex flex-row gap-6 items-center">
             <IoIosMail />
@@ -28,26 +28,26 @@ export default function Home() {
             <FaPhoneVolume />
             <a className=" text-[#0D57F6]" href="tel:+8801601446609">+8801601446609</a>
             </div>
-           {
+           
             // showNum === true ? (
             //   <div className="flex flex-row justify-center items-center mt-4 gap-4">
             //   <FaPhoneVolume onClick={()=>setShowNum(false)} className=" w-12 h-12 hover:cursor-pointer" />
             //       <div className="flex flex-col gap-2">
             //     <div className="flex flex-row gap-2 items-center">
-            //   {/* <p className=" font-bold ">1. </p> */}
+            //    <p className=" font-bold ">1. </p> 
             //   <a className=" text-[#0D57F6]" href="tel:+8801897701634">+8801601446609</a>
             //   </div>
-            //   {/* <div className="flex flex-row gap-2 items-center">
+            //    <div className="flex flex-row gap-2 items-center">
             //   <p className=" font-bold ">2. </p>
             //   <a className=" text-[#0D57F6]" href="tel:+8801897701634">+8801886314109</a>
-            //   </div> */}
+            //   </div> 
             //    </div>
             //   </div>
             // ) : <div className="flex justify-center items-center mt-4">
             //   <FaPhoneVolume onClick={()=>setShowNum(true)} className=" w-12 h-12 hover:cursor-pointer" />
             // </div>
-           }
-         </div>
+           
+         </div> */}
       </div>
       
     </main>
